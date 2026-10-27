@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-10-27T06:08:57.497606+00:00",
+  "dataset_sha256": "6aecc4a47c87f2456578ab5bb1d3dde9b4ff91dd46e650f943e8b484c75b4f88",
+  "corpus_sha256": "2698b1a3ffa9c030bf3178d52a9d12d534e15f075ebbc1d09e610308e831cfc5",
+  "question_count": 50,
+  "implementation_sha256": {
+    "ingest.py": "7def8a4b8348e45ee7d264772dd789b668dc2490fd3947368890c859981f823a",
+    "server.py": "33bed1a635a2d6e42c8743d16784a3c67aade97f03abcb62eb5ccaf8cf48ff55",
+    "evaluation.py": "19e6a2b54987f07832a3fcd2597dc19d389f95e4764426ab5d4526fd90016f55",
+    "__init__.py": "df5fea0a9a4a4253f89edcab03d5ddcae5024a2c91de3e4555ba09c7f5fb9043",
+    "answers.py": "143331108aff7e93968025bba65676962b66e7555cd948a1e5ace23b3a0039c9",
+    "cli.py": "2b1c893835011967e45ef071f76db5d5b91a22e71992416f6498a9d4e99ffbc4",
+    "search.py": "61aa56ecc2cfa104ddd3928ab0dcdb683a3e562b493d2f6b4de77574661856b2",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+  },
+  "policy": "Freeze dataset and source corpus before running. Retire as a holdout if used to tune system behavior."
+}

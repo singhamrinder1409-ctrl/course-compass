@@ -1,0 +1,473 @@
+{
+  "name": "UVic six-course test v1",
+  "calendar_edition": "September 2026",
+  "notes": "Authored after development implementation; frozen before first run. Same narrow corpus and related topics limit independence. Do not tune retrieval or prompts using these results.",
+  "questions": [
+    {
+      "id": "test-01",
+      "question": "Does CSC110 introduce software testing?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; the description includes an introduction to testing.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description"
+      ]
+    },
+    {
+      "id": "test-02",
+      "question": "Are objects and classes part of CSC-110?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; both are included in the description.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description"
+      ]
+    },
+    {
+      "id": "test-03",
+      "question": "Which control-flow concepts appear in CSC 110?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Selection and iteration.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description"
+      ]
+    },
+    {
+      "id": "test-04",
+      "question": "Is CSC 110 credit compatible with CSC 111?",
+      "category": "exclusion",
+      "expected_behavior": "answer",
+      "reference_answer": "Credit is granted for only one of those courses.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes"
+      ]
+    },
+    {
+      "id": "test-05",
+      "question": "Does CSC110 require every listed high-school mathematics option?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "No; the source uses alternative groups, including a university mathematics alternative. Preserve its one-of nesting.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-06",
+      "question": "Is MATH120 an option in the CSC110 prerequisites?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; MATH120 appears among the university mathematics alternatives.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-07",
+      "question": "Does csc115 include recursion?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; recursion is in the description. Flag the editorial instruction in the source.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description"
+      ]
+    },
+    {
+      "id": "test-08",
+      "question": "What object-oriented concepts are mentioned for CSC115?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Abstraction, encapsulation, inheritance, polymorphism and generic programming appear in the description; flag the editorial source wording.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description"
+      ]
+    },
+    {
+      "id": "test-09",
+      "question": "Is CSC 116 accepted instead of CSC 110 before CSC115?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "The CSC115 prerequisite alternatives are CSC110 or CSC111, not CSC116.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-10",
+      "question": "Can CSC115 and CSC160 both count for credit?",
+      "category": "exclusion",
+      "expected_behavior": "answer",
+      "reference_answer": "No; only one of CSC115, CSC116 and CSC160 can receive credit.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes"
+      ]
+    },
+    {
+      "id": "test-11",
+      "question": "Does taking CSC111 meet the listed prerequisite alternative for CSC115?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; CSC111 is one of the two alternatives.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-12",
+      "question": "Is graph traversal discussed in CSC225?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; graph traversals, topological sorting and connectivity testing are included.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+      ]
+    },
+    {
+      "id": "test-13",
+      "question": "What does CSC225 say about time and space complexity?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Both concepts are part of the course description, along with worst-case analysis.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+      ]
+    },
+    {
+      "id": "test-14",
+      "question": "Does CSC225 include self-balancing search trees?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; tree-based structures include self-balancing binary search trees and heaps.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+      ]
+    },
+    {
+      "id": "test-15",
+      "question": "Can MATH122 alone satisfy all of the prerequisites for CSC225?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "No; a programming alternative CSC115/CSC116 is also required, alongside ECE242/MATH122.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-16",
+      "question": "Is the pair CSC116 and ECE242 one way to satisfy the published prerequisite groups for CSC225?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes, those meet the two respective one-of groups; do not guarantee registration eligibility.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-17",
+      "question": "Does CSC226 introduce NP-completeness?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; it introduces P, NP and NP-completeness.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+      ]
+    },
+    {
+      "id": "test-18",
+      "question": "Are network flow problems part of CSC226?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; optimization includes maximum flow problems on networks.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+      ]
+    },
+    {
+      "id": "test-19",
+      "question": "What is CSC226 called in the calendar?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Algorithms and Data Structures II.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+      ]
+    },
+    {
+      "id": "test-20",
+      "question": "Can GEOG226 be taken alongside CSC226 as the listed statistics-related alternative?",
+      "category": "concurrency",
+      "expected_behavior": "answer",
+      "reference_answer": "GEOG226 is explicitly a pre- or corequisite alternative; retain that official listing even if the subject seems unexpected.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites"
+      ]
+    },
+    {
+      "id": "test-21",
+      "question": "Is PSYC300A one of the concurrent-enrollment options for CSC226?",
+      "category": "concurrency",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; it is one of five pre- or corequisite alternatives.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites"
+      ]
+    },
+    {
+      "id": "test-22",
+      "question": "Must I complete all five pre- or corequisite options for CSC226?",
+      "category": "concurrency",
+      "expected_behavior": "answer",
+      "reference_answer": "No; the source requires one of GEOG226, PSYC300A, STAT254, STAT255 or STAT260.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites"
+      ]
+    },
+    {
+      "id": "test-23",
+      "question": "Was CSC226 formerly numbered CSC326?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; the former-course note identifies CSC326.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText"
+      ]
+    },
+    {
+      "id": "test-24",
+      "question": "Does CSC320 cover Turing machines?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; Turing machines are a typical topic.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rJTqk_aXN:description"
+      ]
+    },
+    {
+      "id": "test-25",
+      "question": "Are context free languages included in CSC320?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; context free languages appear among typical topics.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rJTqk_aXN:description"
+      ]
+    },
+    {
+      "id": "test-26",
+      "question": "Can CSC120 replace CSC226 as the prerequisite for CSC320?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "No; CSC226 is required plus one of CSC120 or ENGR130.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-27",
+      "question": "Is ENGR130 allowed instead of CSC120 in the CSC320 prerequisite groups?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; either is accepted in that group, in addition to CSC226.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-28",
+      "question": "Does CSC360 discuss deadlocks and CPU scheduling?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; both topics appear in its description.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description"
+      ]
+    },
+    {
+      "id": "test-29",
+      "question": "Which memory and storage topics are listed for CSC360?",
+      "category": "lookup",
+      "expected_behavior": "answer",
+      "reference_answer": "Memory management and file systems are included.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description"
+      ]
+    },
+    {
+      "id": "test-30",
+      "question": "Can ECE255 fill the architecture prerequisite alternative for CSC360?",
+      "category": "prerequisite",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes; CSC230 or ECE255 fills that group; the other groups are still required.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "test-31",
+      "question": "How do the descriptions of CSC225 and CSC226 differ?",
+      "category": "comparison",
+      "expected_behavior": "answer",
+      "reference_answer": "CSC225 establishes fundamental algorithms, data structures and analysis; CSC226 covers intermediate design, dynamic programming, greedy methods, network flows and NP-completeness.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+      ]
+    },
+    {
+      "id": "test-32",
+      "question": "Compare the formal-theory topics of CSC320 with the systems topics of CSC360.",
+      "category": "comparison",
+      "expected_behavior": "answer",
+      "reference_answer": "CSC320 concerns formal models, languages and computability; CSC360 concerns operating system structures, concurrency, scheduling, memory and file systems.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+        "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description"
+      ]
+    },
+    {
+      "id": "test-33",
+      "question": "Who is teaching CSC225 next term?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "The corpus contains no instructor or future teaching assignments.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-34",
+      "question": "Is there a waitlist for CSC115 today?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "No live waitlist information is present.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-35",
+      "question": "How much tuition will I pay for CSC320?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "Tuition and individual fee calculations are not in this sample.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-36",
+      "question": "At what time does CSC110 meet on Mondays?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "Meeting times are absent.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-37",
+      "question": "Is CSC360 offered in summer 2027?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "The corpus does not establish future offerings.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-38",
+      "question": "Can you register me in CSC226?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "Registration actions are outside the app and the corpus.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-39",
+      "question": "What textbook and ISBN are required for CSC225?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "No textbook list or ISBN is available.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-40",
+      "question": "How is the final grade weighted in CSC360?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "Assessment weights are absent.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-41",
+      "question": "What are the prerequisites for CSC499?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "CSC499 is outside the six-course sample.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-42",
+      "question": "What is the deadline for dropping CSC115 this term?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "Drop deadlines are outside the course records.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-43",
+      "question": "Which room hosts the CSC320 lectures?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "Classroom locations are absent.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-44",
+      "question": "What is the email address of the CSC110 professor?",
+      "category": "unanswerable",
+      "expected_behavior": "abstain",
+      "reference_answer": "Instructor contact details are absent.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-45",
+      "question": "What will I learn in 110?",
+      "category": "ambiguous",
+      "expected_behavior": "clarify",
+      "reference_answer": "Ask for the subject code instead of assuming a department.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-46",
+      "question": "Can I take 115 after 111?",
+      "category": "ambiguous",
+      "expected_behavior": "clarify",
+      "reference_answer": "Ask for the subject code instead of assuming a department.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-47",
+      "question": "List the requirements for 360.",
+      "category": "ambiguous",
+      "expected_behavior": "clarify",
+      "reference_answer": "Ask for the subject code instead of assuming a department.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-48",
+      "question": "Compare 225 and 226.",
+      "category": "ambiguous",
+      "expected_behavior": "clarify",
+      "reference_answer": "Ask for the subject code instead of assuming a department.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-49",
+      "question": "Does 320 cover automata?",
+      "category": "ambiguous",
+      "expected_behavior": "clarify",
+      "reference_answer": "Ask for the subject code instead of assuming a department.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "test-50",
+      "question": "What do I need for 226?",
+      "category": "ambiguous",
+      "expected_behavior": "clarify",
+      "reference_answer": "Ask for the subject code instead of assuming a department.",
+      "supporting_section_ids": []
+    }
+  ]
+}

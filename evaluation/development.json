@@ -1,0 +1,93 @@
+{
+  "calendar_edition": "September 2026",
+  "purpose": "Development only; not a held-out accuracy benchmark. References manually checked against saved source records.",
+  "questions": [
+    {
+      "id": "dev-01",
+      "question": "What topics does CSC 110 cover?",
+      "expected_behavior": "answer",
+      "reference_answer": "An introductory programming course covering program design, control flow, collections, objects, and testing.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description"
+      ]
+    },
+    {
+      "id": "dev-02",
+      "question": "Can either CSC 110 or CSC 111 satisfy the programming prerequisite for CSC 115?",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes. The source lists one of the two courses, rather than requiring both.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "dev-03",
+      "question": "What prerequisite groups does CSC 225 require?",
+      "expected_behavior": "answer",
+      "reference_answer": "Both groups are required: one of CSC115/CSC116 and one of ECE242/MATH122.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "dev-04",
+      "question": "What must I complete before CSC 226?",
+      "expected_behavior": "answer",
+      "reference_answer": "CSC225 is the prerequisite. A complete response should also mention the separate pre- or corequisite section.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites"
+      ]
+    },
+    {
+      "id": "dev-05",
+      "question": "Can I take STAT 260 concurrently with CSC 226?",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes, STAT260 is one of the listed pre- or corequisite alternatives. Do not imply that it is the only option.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites"
+      ]
+    },
+    {
+      "id": "dev-06",
+      "question": "Does CSC 320 require CSC 226 and an additional course?",
+      "expected_behavior": "answer",
+      "reference_answer": "Yes. CSC226 plus one of CSC120 or ENGR130.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "dev-07",
+      "question": "What are the prerequisite alternatives for CSC 360?",
+      "expected_behavior": "answer",
+      "reference_answer": "CSC225 and SENG265, plus one of CSC120/ENGR130, plus one of CSC230/ECE255.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+      ]
+    },
+    {
+      "id": "dev-08",
+      "question": "Can I earn credit for both CSC 226 and CSC 326?",
+      "expected_behavior": "answer",
+      "reference_answer": "No. The credit exclusion permits credit for only one.",
+      "supporting_section_ids": [
+        "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes"
+      ]
+    },
+    {
+      "id": "dev-09",
+      "question": "How many seats are open in CSC 360 right now?",
+      "expected_behavior": "abstain",
+      "reference_answer": "The calendar sample does not contain live seat availability.",
+      "supporting_section_ids": []
+    },
+    {
+      "id": "dev-10",
+      "question": "What are the prerequisites for 225?",
+      "expected_behavior": "clarify",
+      "reference_answer": "Ask for the subject code instead of assuming CSC.",
+      "supporting_section_ids": []
+    }
+  ]
+}

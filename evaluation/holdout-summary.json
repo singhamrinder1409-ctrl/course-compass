@@ -1,0 +1,1592 @@
+{
+  "dataset_sha256": "6aecc4a47c87f2456578ab5bb1d3dde9b4ff91dd46e650f943e8b484c75b4f88",
+  "corpus_sha256": "2698b1a3ffa9c030bf3178d52a9d12d534e15f075ebbc1d09e610308e831cfc5",
+  "frozen_at": "2026-10-27T06:08:57.497606+00:00",
+  "run_at": "2026-10-27T06:09:13.916494+00:00",
+  "question_count": 50,
+  "answerable_count": 32,
+  "k": 8,
+  "retrieval": [
+    {
+      "name": "BM25 + course/field boosts",
+      "all_evidence_hit_rate": 1,
+      "section_recall": 1.0,
+      "mean_reciprocal_rank": 0.921875,
+      "latency_p50_ms": 0.027450000000000002,
+      "latency_p95_ms": 0.0427,
+      "cases": [
+        {
+          "id": "test-01",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.2187
+        },
+        {
+          "id": "test-02",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0335
+        },
+        {
+          "id": "test-03",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 0.0323
+        },
+        {
+          "id": "test-04",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0282
+        },
+        {
+          "id": "test-05",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0327
+        },
+        {
+          "id": "test-06",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0281
+        },
+        {
+          "id": "test-07",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0225
+        },
+        {
+          "id": "test-08",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0288
+        },
+        {
+          "id": "test-09",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 0.0333
+        },
+        {
+          "id": "test-10",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0276
+        },
+        {
+          "id": "test-11",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0312
+        },
+        {
+          "id": "test-12",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0239
+        },
+        {
+          "id": "test-13",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0307
+        },
+        {
+          "id": "test-14",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0295
+        },
+        {
+          "id": "test-15",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0329
+        },
+        {
+          "id": "test-16",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0411
+        },
+        {
+          "id": "test-17",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0253
+        },
+        {
+          "id": "test-18",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0295
+        },
+        {
+          "id": "test-19",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.16666666666666666,
+          "latency_ms": 0.0231
+        },
+        {
+          "id": "test-20",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0427
+        },
+        {
+          "id": "test-21",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0334
+        },
+        {
+          "id": "test-22",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 0.0588
+        },
+        {
+          "id": "test-23",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0388
+        },
+        {
+          "id": "test-24",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0241
+        },
+        {
+          "id": "test-25",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0264
+        },
+        {
+          "id": "test-26",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0348
+        },
+        {
+          "id": "test-27",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0321
+        },
+        {
+          "id": "test-28",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0268
+        },
+        {
+          "id": "test-29",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0273
+        },
+        {
+          "id": "test-30",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0277
+        },
+        {
+          "id": "test-31",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 2,
+          "found_count": 2,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0302
+        },
+        {
+          "id": "test-32",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 2,
+          "found_count": 2,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.0373
+        },
+        {
+          "id": "test-33",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0249
+        },
+        {
+          "id": "test-34",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0237
+        },
+        {
+          "id": "test-35",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0273
+        },
+        {
+          "id": "test-36",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0297
+        },
+        {
+          "id": "test-37",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0207
+        },
+        {
+          "id": "test-38",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.022
+        },
+        {
+          "id": "test-39",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0224
+        },
+        {
+          "id": "test-40",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0226
+        },
+        {
+          "id": "test-41",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0185
+        },
+        {
+          "id": "test-42",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0267
+        },
+        {
+          "id": "test-43",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0213
+        },
+        {
+          "id": "test-44",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0243
+        },
+        {
+          "id": "test-45",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.018
+        },
+        {
+          "id": "test-46",
+          "retrieved_ids": [],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0174
+        },
+        {
+          "id": "test-47",
+          "retrieved_ids": [],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0169
+        },
+        {
+          "id": "test-48",
+          "retrieved_ids": [],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0147
+        },
+        {
+          "id": "test-49",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.016
+        },
+        {
+          "id": "test-50",
+          "retrieved_ids": [],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.0133
+        }
+      ]
+    },
+    {
+      "name": "TF-IDF cosine (lexical vectors)",
+      "all_evidence_hit_rate": 0.96875,
+      "section_recall": 0.9411764705882353,
+      "mean_reciprocal_rank": 0.7842261904761905,
+      "latency_p50_ms": 0.14415,
+      "latency_p95_ms": 0.1513,
+      "cases": [
+        {
+          "id": "test-01",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 0.1807
+        },
+        {
+          "id": "test-02",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.151
+        },
+        {
+          "id": "test-03",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.14285714285714285,
+          "latency_ms": 0.1479
+        },
+        {
+          "id": "test-04",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1462
+        },
+        {
+          "id": "test-05",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1443
+        },
+        {
+          "id": "test-06",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1464
+        },
+        {
+          "id": "test-07",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 0.1439
+        },
+        {
+          "id": "test-08",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.146
+        },
+        {
+          "id": "test-09",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 0.1465
+        },
+        {
+          "id": "test-10",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1448
+        },
+        {
+          "id": "test-11",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1442
+        },
+        {
+          "id": "test-12",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 0.1413
+        },
+        {
+          "id": "test-13",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1473
+        },
+        {
+          "id": "test-14",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1533
+        },
+        {
+          "id": "test-15",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 0.1503
+        },
+        {
+          "id": "test-16",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1503
+        },
+        {
+          "id": "test-17",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1436
+        },
+        {
+          "id": "test-18",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1458
+        },
+        {
+          "id": "test-19",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.14285714285714285,
+          "latency_ms": 0.1408
+        },
+        {
+          "id": "test-20",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1513
+        },
+        {
+          "id": "test-21",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 0.1487
+        },
+        {
+          "id": "test-22",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 0.14285714285714285,
+          "latency_ms": 0.1493
+        },
+        {
+          "id": "test-23",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1445
+        },
+        {
+          "id": "test-24",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.143
+        },
+        {
+          "id": "test-25",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1447
+        },
+        {
+          "id": "test-26",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1481
+        },
+        {
+          "id": "test-27",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1454
+        },
+        {
+          "id": "test-28",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1448
+        },
+        {
+          "id": "test-29",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1458
+        },
+        {
+          "id": "test-30",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description"
+          ],
+          "expected_count": 1,
+          "found_count": 1,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.144
+        },
+        {
+          "id": "test-31",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 2,
+          "found_count": 0,
+          "all_evidence_found": false,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1441
+        },
+        {
+          "id": "test-32",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites"
+          ],
+          "expected_count": 2,
+          "found_count": 2,
+          "all_evidence_found": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.1454
+        },
+        {
+          "id": "test-33",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1353
+        },
+        {
+          "id": "test-34",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1355
+        },
+        {
+          "id": "test-35",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1371
+        },
+        {
+          "id": "test-36",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1395
+        },
+        {
+          "id": "test-37",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1348
+        },
+        {
+          "id": "test-38",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:formerlyNotesText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preOrCorequisites",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1346
+        },
+        {
+          "id": "test-39",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1356
+        },
+        {
+          "id": "test-40",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:description",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1373
+        },
+        {
+          "id": "test-41",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:SkWiJ_6mE:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1349
+        },
+        {
+          "id": "test-42",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Bk_cy_a7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1359
+        },
+        {
+          "id": "test-43",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1376
+        },
+        {
+          "id": "test-44",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:hoursCatalogText",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:preAndCorequisites",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:description",
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:preAndCorequisites"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1356
+        },
+        {
+          "id": "test-45",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rkgWq1OpQE:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:HytcJuaQV:supplementalNotes",
+            "69bd9d92e76504efd3e57c74:Hkm5kuT7V:supplementalNotes"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1368
+        },
+        {
+          "id": "test-46",
+          "retrieved_ids": [],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1247
+        },
+        {
+          "id": "test-47",
+          "retrieved_ids": [],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1333
+        },
+        {
+          "id": "test-48",
+          "retrieved_ids": [],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1242
+        },
+        {
+          "id": "test-49",
+          "retrieved_ids": [
+            "69bd9d92e76504efd3e57c74:rJTqk_aXN:description"
+          ],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1323
+        },
+        {
+          "id": "test-50",
+          "retrieved_ids": [],
+          "expected_count": 0,
+          "found_count": 0,
+          "all_evidence_found": null,
+          "reciprocal_rank": 0,
+          "latency_ms": 0.1274
+        }
+      ]
+    }
+  ],
+  "behavior": {
+    "abstain": {
+      "count": 12,
+      "correct_status": 5,
+      "rate": 0.4166666666666667
+    },
+    "clarify": {
+      "count": 6,
+      "correct_status": 6,
+      "rate": 1.0
+    }
+  },
+  "model_evaluation": {
+    "executed": false,
+    "answer_accuracy": null,
+    "citation_support": null,
+    "errors": 0,
+    "note": "AI answer accuracy, citation support, token cost, and model latency are unmeasured: no model calls were made."
+  },
+  "implementation_sha256": {
+    "ingest.py": "7def8a4b8348e45ee7d264772dd789b668dc2490fd3947368890c859981f823a",
+    "server.py": "33bed1a635a2d6e42c8743d16784a3c67aade97f03abcb62eb5ccaf8cf48ff55",
+    "evaluation.py": "19e6a2b54987f07832a3fcd2597dc19d389f95e4764426ab5d4526fd90016f55",
+    "__init__.py": "df5fea0a9a4a4253f89edcab03d5ddcae5024a2c91de3e4555ba09c7f5fb9043",
+    "answers.py": "143331108aff7e93968025bba65676962b66e7555cd948a1e5ace23b3a0039c9",
+    "cli.py": "df07a8ea4bfaea8b0c40e29519f0df431441a0dec79c212ce8c9254a09122834",
+    "search.py": "61aa56ecc2cfa104ddd3928ab0dcdb683a3e562b493d2f6b4de77574661856b2",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+  }
+}

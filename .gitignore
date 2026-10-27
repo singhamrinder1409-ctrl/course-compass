@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Full local evaluation outputs can contain downloaded source excerpts.
+evaluation/holdout-report.json
+evaluation/model-report.json
+evaluation/reviews.json
+.DS_Store
+*.egg-info/
+build/
+dist/

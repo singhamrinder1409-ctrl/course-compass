@@ -1,0 +1,89 @@
+{
+  "dataset": "development only; not held-out answer accuracy",
+  "k": 8,
+  "answerable_questions": 8,
+  "all_evidence_hit_rate": 1.0,
+  "section_recall": 1.0,
+  "cases": [
+    {
+      "id": "dev-01",
+      "expected_sections": 1,
+      "retrieved_expected_sections": 1,
+      "all_evidence_found": true,
+      "expected_behavior": "answer",
+      "offline_status": "evidence"
+    },
+    {
+      "id": "dev-02",
+      "expected_sections": 1,
+      "retrieved_expected_sections": 1,
+      "all_evidence_found": true,
+      "expected_behavior": "answer",
+      "offline_status": "evidence"
+    },
+    {
+      "id": "dev-03",
+      "expected_sections": 1,
+      "retrieved_expected_sections": 1,
+      "all_evidence_found": true,
+      "expected_behavior": "answer",
+      "offline_status": "evidence"
+    },
+    {
+      "id": "dev-04",
+      "expected_sections": 2,
+      "retrieved_expected_sections": 2,
+      "all_evidence_found": true,
+      "expected_behavior": "answer",
+      "offline_status": "evidence"
+    },
+    {
+      "id": "dev-05",
+      "expected_sections": 1,
+      "retrieved_expected_sections": 1,
+      "all_evidence_found": true,
+      "expected_behavior": "answer",
+      "offline_status": "evidence"
+    },
+    {
+      "id": "dev-06",
+      "expected_sections": 1,
+      "retrieved_expected_sections": 1,
+      "all_evidence_found": true,
+      "expected_behavior": "answer",
+      "offline_status": "evidence"
+    },
+    {
+      "id": "dev-07",
+      "expected_sections": 1,
+      "retrieved_expected_sections": 1,
+      "all_evidence_found": true,
+      "expected_behavior": "answer",
+      "offline_status": "evidence"
+    },
+    {
+      "id": "dev-08",
+      "expected_sections": 1,
+      "retrieved_expected_sections": 1,
+      "all_evidence_found": true,
+      "expected_behavior": "answer",
+      "offline_status": "evidence"
+    },
+    {
+      "id": "dev-09",
+      "expected_sections": 0,
+      "retrieved_expected_sections": 0,
+      "all_evidence_found": null,
+      "expected_behavior": "abstain",
+      "offline_status": "abstain"
+    },
+    {
+      "id": "dev-10",
+      "expected_sections": 0,
+      "retrieved_expected_sections": 0,
+      "all_evidence_found": null,
+      "expected_behavior": "clarify",
+      "offline_status": "clarify"
+    }
+  ]
+}

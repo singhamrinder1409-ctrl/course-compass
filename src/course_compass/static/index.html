@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Course Compass · UVic course explorer</title><meta name="description" content="Explore UVic course information with evidence from the official calendar."><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body>
+<a class="skip" href="#question">Skip to question</a>
+<header><a class="brand" href="/" aria-label="Course Compass home"><span class="mark" aria-hidden="true">↗</span> Course Compass</a><span class="header-note">An independent student project</span><span class="local"><i></i> LOCAL WORKSPACE</span></header>
+<main>
+<section class="intro"><div class="eyebrow">UVIC / COMPUTER SCIENCE</div><h1>Your next course.<br><em>A clearer picture.</em></h1><p>Explore course topics and prerequisites, with the official calendar a click away.</p></section>
+<div class="workspace">
+<section class="conversation" aria-labelledby="ask-heading">
+<div class="section-top"><h2 id="ask-heading">What would you like to know?</h2><span class="pill" id="edition">September 2026</span></div>
+<form id="ask-form"><label class="sr-only" for="question">Your course question</label><textarea id="question" name="question" rows="3" maxlength="4000" placeholder="What do I need before taking CSC 360?" required></textarea><div class="composer-bottom"><label class="mode-label" for="mode">Answer mode <select id="mode"><option value="examples">Saved examples</option><option value="evidence">Source excerpts</option><option value="model">AI answer</option></select></label><button id="submit" type="submit">Explore <span aria-hidden="true">↗</span></button></div></form>
+<p class="mode-note" id="mode-note">Saved examples are authored demonstrations. No API key, paid calls, or downloads needed.</p>
+<div class="suggestions" aria-label="Example questions"><button type="button" data-question="What are the prerequisites for CSC 360?">CSC 360 prerequisites ↗</button><button type="button" data-question="What topics does CSC 225 cover?">Explore algorithms ↗</button><button type="button" data-question="Can I take STAT 260 concurrently with CSC 226?">Taking courses together ↗</button></div>
+<section id="result" aria-labelledby="result-title" aria-busy="false"><div class="empty" id="empty-state"><div class="empty-mark" aria-hidden="true">⌁</div><h3>A little context goes a long way.</h3><p>Ask a question or choose an example above.<br>We’ll bring the relevant calendar passages here.</p></div><div id="response" hidden><div class="result-top"><h3 id="result-title">Your results</h3><span id="result-meta"></span></div><div id="status" role="status" aria-live="polite"></div><div id="claims"></div><div id="sources"></div></div></section>
+</section>
+<aside>
+<section class="scope"><div class="aside-label">THE STARTING COLLECTION</div><h2>Six courses.<br>Every source visible.</h2><p>A focused sample from the September 2026 undergraduate calendar.</p><ul id="course-list"><li>Loading course collection…</li></ul><div class="scope-foot">Course descriptions & prerequisites<br><strong>No live registration or seat data</strong></div></section>
+<section class="evaluation"><div class="aside-label">PROJECT NOTEBOOK</div><h2>Measured, openly.</h2><p>See how well search finds the evidence. AI answer quality is reviewed separately.</p><button id="evaluation-toggle" type="button" aria-expanded="false" aria-controls="evaluation-details">View evaluation <span aria-hidden="true">↗</span></button><div id="evaluation-details" hidden></div></section>
+</aside>
+</div>
+<footer><span>Built to make the evidence easier to find.</span><a href="https://www.uvic.ca/calendar/undergrad/index.php" target="_blank" rel="noopener noreferrer">Official UVic calendar ↗</a><span>Not affiliated with the University of Victoria.</span></footer>
+</main></body></html>
